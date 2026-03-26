@@ -26,5 +26,5 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: dist/
-          server-dir: public_html/maghildemo.com/   # ✅ FIXED
+          server-dir: public_html/maghil-test/   # ✅ FIXED
           dangerous-clean-slate: true
